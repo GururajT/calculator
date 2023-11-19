@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(5, 30, 220);
+}
+.display{
+    width: 536px;
+    height: 90px;
+    font-size: 30px;
+    border-radius: 6px;
+    background: #181F32;
+    border: 2px solid #181F32 ;
+}
+.display p{
+    text-align: right;
+    color: #FFFFFF !important;
+    font-size: 30px !important;
+}
+.head h3{
+    color: white;
+    margin-bottom:20px ;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.head-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+.keypad{
+    margin-top: 24px;
+    background: #252D44;
+    text-align: center;
+    padding: 42px 0px ;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 9px;
+}
+.keypad-row button{
+    width: 108px;
+    height: 65px;
+    border-radius: 12px;
+    margin: 3px 4px ;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3B4664;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+.keypad-lastrow button{
+    width: 227px;
+    height: 60px;
+    border-radius: 11.52px;
+    margin: 4px 5px ;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+
+}
+.del{
+    color:#ffffff !important;
+    background: #647299 !important;
+    border: 2px solid #647299 !important;
+}
+.equal-sign{
+    background: #D13F30 !important;
+    color: #FFFFFF !important;
+    border: 2px solid #D13F30;
+}
+.keypad-row button:hover,.keypad-lastrow button:hover{
+    cursor: pointer;
+}
